@@ -9,3 +9,16 @@ Content-Type: application/json
 
 ###
 GET http://localhost:3001/api/notes
+
+### 
+DELETE http://localhost:3001/api/notes/60544d10a528e62724de535f
+
+
+###
+PUT http://localhost:3001/api/notes/605453c3ef3b0521981f3279
+Content-Type: application/json
+
+{
+    "content": "Joshua Chu",
+    "important": false
+}
